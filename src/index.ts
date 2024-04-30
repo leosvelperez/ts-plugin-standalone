@@ -1,1 +1,1 @@
-export * from './lib/ts-plugin-standalone';
+export * from './lib/lib1';

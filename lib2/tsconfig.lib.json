@@ -1,14 +1,14 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "../tsconfig.base.json",
   "compilerOptions": {
-    "outDir": "./dist/lib1",
+    "outDir": "../dist/lib2",
     "emitDeclarationOnly": false
   },
   "include": ["src/**/*.ts"],
   "exclude": ["src/**/*.spec.ts", "src/**/*.test.ts"],
   "references": [
     {
-      "path": "./lib3/tsconfig.lib.json"
+      "path": "../lib3/tsconfig.lib.json"
     }
   ]
 }
